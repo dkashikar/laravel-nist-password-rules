@@ -9,10 +9,16 @@
             "email": "jordan@langleyfoxall.co.uk"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dkashikar/laravel-password-exposed-validation-rule"
+        }
+    ],
     "require": {
         "php": ">=7.1",
         "laravel/framework": "^5.5||^6.0||^7.0||^8.0",
-        "divineomega/laravel-password-exposed-validation-rule": "^2.3.0"
+        "divineomega/laravel-password-exposed-validation-rule": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.6",
